@@ -198,7 +198,7 @@ public class ElasticSearchSpringBootApplicationSearchs {
 	}
 
 
-	/**Sort查询结果高亮显示
+	/**Highlight查询结果高亮显示
 	 * @throws IOException
 	 */
 	@Test
