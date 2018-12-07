@@ -1,0 +1,35 @@
+[2018-12-05T16:11:07,725][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-12-05T16:11:08,254][INFO ][o.e.e.NodeEnvironment    ] [FqPoBv5] using [1] data paths, mounts [[(E:)]], net usable_space [296.4gb], net total_space [299.9gb], types [NTFS]
+[2018-12-05T16:11:08,256][INFO ][o.e.e.NodeEnvironment    ] [FqPoBv5] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-12-05T16:11:08,263][INFO ][o.e.n.Node               ] node name [FqPoBv5] derived from node ID [FqPoBv5sRzOZ9cVpPddIUg]; set [node.name] to override
+[2018-12-05T16:11:08,264][INFO ][o.e.n.Node               ] version[6.2.1], pid[5716], build[7299dc3/2018-02-07T19:34:26.990113Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-12-05T16:11:08,265][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\elasticsearch, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Delasticsearch, -Des.path.home=E:\ES\elasticsearch-6.2.1, -Des.path.conf=E:\ES\elasticsearch-6.2.1\config]
+[2018-12-05T16:11:09,598][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [aggs-matrix-stats]
+[2018-12-05T16:11:09,598][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [analysis-common]
+[2018-12-05T16:11:09,599][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [ingest-common]
+[2018-12-05T16:11:09,600][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [lang-expression]
+[2018-12-05T16:11:09,600][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [lang-mustache]
+[2018-12-05T16:11:09,601][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [lang-painless]
+[2018-12-05T16:11:09,601][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [mapper-extras]
+[2018-12-05T16:11:09,602][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [parent-join]
+[2018-12-05T16:11:09,602][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [percolator]
+[2018-12-05T16:11:09,603][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [rank-eval]
+[2018-12-05T16:11:09,603][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [reindex]
+[2018-12-05T16:11:09,604][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [repository-url]
+[2018-12-05T16:11:09,604][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [transport-netty4]
+[2018-12-05T16:11:09,605][INFO ][o.e.p.PluginsService     ] [FqPoBv5] loaded module [tribe]
+[2018-12-05T16:11:09,605][INFO ][o.e.p.PluginsService     ] [FqPoBv5] no plugins loaded
+[2018-12-05T16:11:14,233][INFO ][o.e.d.DiscoveryModule    ] [FqPoBv5] using discovery type [zen]
+[2018-12-05T16:11:14,867][INFO ][o.e.n.Node               ] initialized
+[2018-12-05T16:11:14,867][INFO ][o.e.n.Node               ] [FqPoBv5] starting ...
+[2018-12-05T16:11:15,588][INFO ][o.e.t.TransportService   ] [FqPoBv5] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2018-12-05T16:11:18,755][INFO ][o.e.c.s.MasterService    ] [FqPoBv5] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {FqPoBv5}{FqPoBv5sRzOZ9cVpPddIUg}{nZMJHp2CReuGlE7-H-DyHw}{127.0.0.1}{127.0.0.1:9300}
+[2018-12-05T16:11:18,767][INFO ][o.e.c.s.ClusterApplierService] [FqPoBv5] new_master {FqPoBv5}{FqPoBv5sRzOZ9cVpPddIUg}{nZMJHp2CReuGlE7-H-DyHw}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {FqPoBv5}{FqPoBv5sRzOZ9cVpPddIUg}{nZMJHp2CReuGlE7-H-DyHw}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-12-05T16:11:18,837][INFO ][o.e.g.GatewayService     ] [FqPoBv5] recovered [0] indices into cluster_state
+[2018-12-05T16:11:19,246][INFO ][o.e.h.n.Netty4HttpServerTransport] [FqPoBv5] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2018-12-05T16:11:19,247][INFO ][o.e.n.Node               ] [FqPoBv5] started
+[2018-12-05T16:15:21,155][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2018-12-05T16:15:21,156][INFO ][o.e.n.Node               ] [FqPoBv5] stopping ...
+[2018-12-05T16:15:21,230][INFO ][o.e.n.Node               ] [FqPoBv5] stopped
+[2018-12-05T16:15:21,231][INFO ][o.e.n.Node               ] [FqPoBv5] closing ...
+[2018-12-05T16:15:21,282][INFO ][o.e.n.Node               ] [FqPoBv5] closed
