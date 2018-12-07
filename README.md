@@ -8,7 +8,7 @@
             
             ik分词器安装只需把ik安装包里的elasticsearch目录拷贝到es的plugins文件夹下(更名为ik以便于日后维护)
             
-            配置额外的分词器:elasticsearch-6.2.1\plugins\ik\config\IKAnalyzer.cfg.xml,
+            配置额外的分词字典:elasticsearch-6.2.1\plugins\ik\config\IKAnalyzer.cfg.xml,
             在elasticsearch-6.2.1\plugins\ik\config\ 文件夹下加上一个自己的词典文件(格式参照ik自带的main.dic)
             然后在<entry key="ext_dict">加上自己的词典文件名</entry>
   
