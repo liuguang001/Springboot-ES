@@ -1,4 +1,7 @@
-  #1 elasticsearch-6.2.1 : es集成了ik分词器的安装包(windows系统,jdk版本为1.8)
+  #1 本项目提供的ES环境(按需下载使用:版本为6.2.1
+  
+          es单机版: 单个es集成了ik分词器的(windows系统,jdk版本为1.8)
+          es集群版: 三个es集成了ik分词器的集群(windows系统,jdk版本为1.8)
   
   
   
